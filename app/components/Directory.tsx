@@ -3,6 +3,7 @@
 import clsx from "clsx";
 import type { CoverageEntry, Tier } from "@/lib/types";
 import { TIER_SHORT } from "@/lib/types";
+import { useCart, entryId } from "@/lib/cart";
 
 interface Props {
   entries: CoverageEntry[];
@@ -85,6 +86,7 @@ export function Directory({ entries, activeTier, query, onSelectCountry }: Props
                     </span>
                   )}
                 </span>
+                {e.tier === "regulators" && <SelectButton entry={e} />}
               </li>
             ))}
             {c.entries.length > 8 && (
@@ -162,6 +164,44 @@ function TierDot({ tier }: { tier: Tier }) {
       title={title}
       className={clsx("mt-1.5 inline-block h-1.5 w-1.5 shrink-0 rounded-full", color)}
     />
+  );
+}
+
+/**
+ * Small "+ / ✓" toggle next to a regulator row. Clicking doesn't bubble up to
+ * the parent country-card button (which would otherwise open the drawer).
+ */
+export function SelectButton({ entry }: { entry: CoverageEntry }) {
+  const cart = useCart();
+  const id = entryId(entry);
+  const selected = cart.has(id);
+  return (
+    <button
+      type="button"
+      onClick={(ev) => {
+        ev.stopPropagation();
+        cart.toggle(entry);
+      }}
+      aria-pressed={selected}
+      aria-label={selected ? `Remove ${entry.name}` : `Add ${entry.name}`}
+      className={clsx(
+        "inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-semibold transition-all focus-ring",
+        selected
+          ? "bg-brand-teal text-white shadow-soft"
+          : "border border-ink-200 text-ink-500 hover:border-brand-teal hover:text-brand-teal"
+      )}
+      title={selected ? "Remove from selections" : "Add to selections"}
+    >
+      {selected ? (
+        <svg viewBox="0 0 14 14" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="2.4">
+          <path d="M3 7.5l3 3 5-6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ) : (
+        <svg viewBox="0 0 14 14" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M7 3v8M3 7h8" strokeLinecap="round" />
+        </svg>
+      )}
+    </button>
   );
 }
 

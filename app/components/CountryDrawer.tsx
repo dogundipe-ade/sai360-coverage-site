@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import clsx from "clsx";
 import type { CoverageEntry, Tier } from "@/lib/types";
 import { TIER_LABELS, TIER_ORDER } from "@/lib/types";
+import { useCart } from "@/lib/cart";
+import { SelectButton } from "./Directory";
 
 interface Props {
   iso3: string | null;
@@ -18,6 +20,7 @@ export function CountryDrawer({ iso3, countryName, entries, onClose }: Props) {
   const open = !!iso3;
   const isUS = iso3 === "USA";
   const [levelFilter, setLevelFilter] = useState<LevelFilter>("all");
+  const cart = useCart();
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -90,11 +93,14 @@ export function CountryDrawer({ iso3, countryName, entries, onClose }: Props) {
                 </button>
               </div>
 
-              {isUS && (
-                <div className="mt-4">
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+                {isUS ? (
                   <LevelSegmented value={levelFilter} onChange={setLevelFilter} />
-                </div>
-              )}
+                ) : (
+                  <span />
+                )}
+                <BulkAddRegulators entries={visible} country={countryName ?? ""} />
+              </div>
             </header>
 
             <div className="flex-1 overflow-y-auto px-6 py-4 space-y-6">
@@ -206,26 +212,77 @@ function EntryRow({
   hideJurisdiction?: boolean;
 }) {
   return (
-    <>
-      <div className="flex items-center">
-        <span className="text-[14.5px] font-medium text-ink-900 flex-1 min-w-0">
-          {e.name}
-        </span>
-        {e.level && <LevelPill level={e.level} />}
-      </div>
-      <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-ink-500">
-        {!hideJurisdiction && e.jurisdiction && e.jurisdiction !== country && (
-          <span>{e.jurisdiction}</span>
-        )}
-        {e.size && <span className="chip">Size {e.size}</span>}
-        {e.stockExchange && <span className="chip">Stock exchange</span>}
-        {e.permissionsCategory && (
-          <span className="chip" title={e.permissionsCategory}>
-            Permissions {e.permissionsCategory.split(" ")[0]}
+    <div className="flex items-start gap-3">
+      <div className="min-w-0 flex-1">
+        <div className="flex items-center">
+          <span className="text-[14.5px] font-medium text-ink-900 flex-1 min-w-0">
+            {e.name}
           </span>
-        )}
+          {e.level && <LevelPill level={e.level} />}
+        </div>
+        <div className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-ink-500">
+          {!hideJurisdiction && e.jurisdiction && e.jurisdiction !== country && (
+            <span>{e.jurisdiction}</span>
+          )}
+          {e.size && <span className="chip">Size {e.size}</span>}
+          {e.stockExchange && <span className="chip">Stock exchange</span>}
+          {e.permissionsCategory && (
+            <span className="chip" title={e.permissionsCategory}>
+              Permissions {e.permissionsCategory.split(" ")[0]}
+            </span>
+          )}
+        </div>
       </div>
-    </>
+      {e.tier === "regulators" && <SelectButton entry={e} />}
+    </div>
+  );
+}
+
+function BulkAddRegulators({
+  entries,
+  country,
+}: {
+  entries: CoverageEntry[];
+  country: string;
+}) {
+  const cart = useCart();
+  const regulators = useMemo(
+    () => entries.filter((e) => e.tier === "regulators"),
+    [entries]
+  );
+  if (regulators.length === 0) return <span />;
+  const allSelected = regulators.every((e) =>
+    cart.has(`${e.tier}|${e.iso3 ?? e.country}|${e.name}`)
+  );
+  return (
+    <button
+      type="button"
+      onClick={() => cart.addMany(regulators)}
+      disabled={allSelected}
+      className={clsx(
+        "inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold transition-all focus-ring",
+        allSelected
+          ? "bg-brand-pale text-brand-deep"
+          : "bg-brand-deep text-white shadow-soft hover:bg-brand-teal"
+      )}
+      title={`Add every regulator from ${country} to your selections`}
+    >
+      {allSelected ? (
+        <>
+          <svg viewBox="0 0 14 14" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="2.4">
+            <path d="M3 7.5l3 3 5-6" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          All {regulators.length} regulators selected
+        </>
+      ) : (
+        <>
+          <svg viewBox="0 0 14 14" className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M7 3v8M3 7h8" strokeLinecap="round" />
+          </svg>
+          Add all {regulators.length} regulators
+        </>
+      )}
+    </button>
   );
 }
 

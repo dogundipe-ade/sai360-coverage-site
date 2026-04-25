@@ -12,6 +12,7 @@ import { WorldMap } from "./WorldMap";
 import { Directory } from "./Directory";
 import { CountryDrawer } from "./CountryDrawer";
 import { Hero } from "./Hero";
+import { CoverageRequestCTA } from "./CoverageRequestCTA";
 
 export function CoverageExplorer({ data }: { data: CoverageData }) {
   const [tier, setTier] = useState<Tier | "all">("all");
@@ -125,15 +126,6 @@ export function CoverageExplorer({ data }: { data: CoverageData }) {
 
   return (
     <div className="mx-auto w-full max-w-page px-5 md:px-8 lg:px-12 pb-20">
-      <header className="pt-8 md:pt-10">
-        <div className="flex items-center justify-between">
-          <Brand />
-          <div className="hidden sm:block text-sm text-ink-400">
-            Live sales walkthrough
-          </div>
-        </div>
-      </header>
-
       <section className="mt-8 md:mt-10">
         <Hero summary={data.summary} />
       </section>
@@ -181,6 +173,8 @@ export function CoverageExplorer({ data }: { data: CoverageData }) {
         entries={drawerEntries}
         onClose={() => setSelectedIso(null)}
       />
+
+      <CoverageRequestCTA />
 
       <footer className="mt-16 border-t border-ink-100 pt-6 text-xs text-ink-400">
         Data last built {new Date(data.summary.builtAt).toLocaleDateString()}{" "}
@@ -248,20 +242,3 @@ function ToggleBtn({
   );
 }
 
-function Brand() {
-  return (
-    <div className="flex items-center gap-3">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/sai360-logo.svg"
-        alt="SAI360"
-        className="h-8 w-auto"
-      />
-      <div className="hidden sm:block border-l border-ink-200 pl-3 leading-tight">
-        <div className="text-[11px] font-medium uppercase tracking-wider text-ink-400">
-          Regulatory Coverage
-        </div>
-      </div>
-    </div>
-  );
-}

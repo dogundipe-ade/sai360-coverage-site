@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SiteNav } from "./components/SiteNav";
+import { CartProvider } from "@/lib/cart";
 
 export const metadata: Metadata = {
   title: "SAI360 · Regulatory Coverage",
@@ -14,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <CartProvider>
+          <SiteNav />
+          {children}
+        </CartProvider>
+      </body>
     </html>
   );
 }

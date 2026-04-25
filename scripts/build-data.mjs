@@ -21,6 +21,43 @@ const REGULATORS_SHEET = "Regulatory Coverage - Other";
 const RULEBOOKS_SHEET = "Consolidated rulebook regulator";
 const EXCHANGES_SHEET = "Exchanges";
 const LEGISLATION_SHEET = "Legislation";
+const PRICING_SHEET = "Pricing SKUs";
+
+// Flat bundle add-ons layered on top of the SKU sheet. These aren't priced
+// per-item — customers toggle the whole bundle on for a single annual fee.
+// Change the price here if it ever shifts.
+const BUNDLE_ADDONS = [
+  {
+    family: "Consolidated Rulebooks",
+    unit: "bundle",
+    tier: "Rulebooks bundle",
+    label: "Consolidated Rulebooks bundle add-on",
+    sku: "SUBS_PL_RB_ADD",
+    delivery: "Bundled reference content",
+    price: 5000,
+    isCustom: false,
+    threshold: null,
+    overFloor: null,
+    notes: null,
+    isBundle: true,
+    bundleKey: "rulebooks",
+  },
+  {
+    family: "Exchanges",
+    unit: "bundle",
+    tier: "Exchanges bundle",
+    label: "Exchanges bundle add-on",
+    sku: "SUBS_PL_EX_ADD",
+    delivery: "Bundled exchange rules",
+    price: 5000,
+    isCustom: false,
+    threshold: null,
+    overFloor: null,
+    notes: null,
+    isBundle: true,
+    bundleKey: "exchanges",
+  },
+];
 
 // Canonical US state (and DC / PR) names used for both jurisdiction lookup
 // and for scanning regulator names to infer federal vs state.
@@ -147,6 +184,73 @@ function readSheet(wb, name) {
   const ws = wb.Sheets[name];
   if (!ws) throw new Error(`Missing sheet: "${name}"`);
   return XLSX.utils.sheet_to_json(ws, { defval: "", raw: true });
+}
+
+// The Pricing SKUs sheet has data in the header row (no real header), so we
+// read raw arrays. Layout per row:
+//   [0] family (sticky — blank means same as previous row)
+//   [1] tier label ("Regulatory Content - up to 30 Regulators")
+//   [2] SKU code
+//   [3] delivery notes
+//   [7] price (number, or the string "Custom")
+//   [8] optional notes (e.g. "manually entered")
+function readPricing(wb) {
+  const ws = wb.Sheets[PRICING_SHEET];
+  if (!ws) return [];
+  const rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: "", raw: true });
+  const out = [];
+  let lastFamily = "";
+  for (const row of rows) {
+    if (!row || row.length === 0) continue;
+    const familyRaw = clean(row[0]);
+    const label = clean(row[1]);
+    const sku = clean(row[2]);
+    const delivery = clean(row[3]);
+    const priceCell = row[7];
+    const notes = clean(row[8]);
+    if (!label && !sku) continue; // blank spacer row
+    if (familyRaw) lastFamily = familyRaw;
+    const family = lastFamily;
+    if (!family) continue;
+
+    // Tier label "Regulatory Content - up to 30 Regulators" → tier text after
+    // the dash, plus a numeric threshold we can drive the slider from.
+    const dash = label.indexOf(" - ");
+    const tier = dash >= 0 ? label.slice(dash + 3).trim() : label;
+
+    // "up to 30 Regulators" → 30; ">60 Regulators" → null + isOver=true
+    const upToMatch = tier.match(/up to (\d+)/i);
+    const overMatch = tier.match(/^>(\d+)/);
+    const threshold = upToMatch ? Number(upToMatch[1]) : null;
+    const overFloor = overMatch ? Number(overMatch[1]) : null;
+
+    const isCustom =
+      typeof priceCell === "string" && priceCell.toLowerCase() === "custom";
+    const price = isCustom
+      ? null
+      : typeof priceCell === "number"
+        ? priceCell
+        : null;
+
+    const unit = family.toLowerCase().startsWith("legisla")
+      ? "jurisdictions"
+      : "regulators";
+
+    out.push({
+      family,
+      unit,
+      tier,
+      label,
+      sku,
+      delivery: delivery || null,
+      price,
+      isCustom,
+      threshold,
+      overFloor,
+      notes: notes || null,
+    });
+  }
+  return out;
 }
 
 function build() {
@@ -308,6 +412,8 @@ function build() {
     builtAt: new Date().toISOString(),
   };
 
+  const pricing = [...readPricing(wb), ...BUNDLE_ADDONS];
+
   const out = {
     summary,
     regulators,
@@ -316,6 +422,7 @@ function build() {
     legislation,
     byIso,
     unmapped: [...unmapped].sort(),
+    pricing,
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
@@ -328,6 +435,7 @@ function build() {
     `  legislation:   ${summary.legislation}`,
     `  exchanges:     ${summary.exchanges}`,
     `  countries:     ${summary.jurisdictions}`,
+    `  pricing SKUs:  ${pricing.length}`,
   ];
   if (unmapped.size > 0) {
     parts.push(`  unmapped names: ${unmapped.size} (see lib/data/coverage.json → unmapped)`);

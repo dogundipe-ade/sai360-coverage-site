@@ -5,7 +5,7 @@
     "exchanges": 39,
     "legislation": 51,
     "jurisdictions": 107,
-    "builtAt": "2026-04-17T23:27:27.526Z"
+    "builtAt": "2026-04-24T22:12:31.376Z"
   },
   "regulators": [
     {
@@ -11615,5 +11615,141 @@
     "European Union",
     "International",
     "North Ame"
+  ],
+  "pricing": [
+    {
+      "family": "Regulatory Content",
+      "unit": "regulators",
+      "tier": "up to 10 Regulators",
+      "label": "Regulatory Content - up to 10 Regulators",
+      "sku": "SUBS_PL_RC_10R",
+      "delivery": "Delivered via API",
+      "price": 8000,
+      "isCustom": false,
+      "threshold": 10,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Regulatory Content",
+      "unit": "regulators",
+      "tier": "up to 30 Regulators",
+      "label": "Regulatory Content - up to 30 Regulators",
+      "sku": "SUBS_PL_RC_30R",
+      "delivery": null,
+      "price": 20000,
+      "isCustom": false,
+      "threshold": 30,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Regulatory Content",
+      "unit": "regulators",
+      "tier": "up to 60 Regulators",
+      "label": "Regulatory Content - up to 60 Regulators",
+      "sku": "SUBS_PL_RC_60R",
+      "delivery": null,
+      "price": 40000,
+      "isCustom": false,
+      "threshold": 60,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Regulatory Content",
+      "unit": "regulators",
+      "tier": ">60 Regulators",
+      "label": "Regulatory Content - >60 Regulators",
+      "sku": "SUBS_PL_RC_60R",
+      "delivery": null,
+      "price": null,
+      "isCustom": true,
+      "threshold": null,
+      "overFloor": 60,
+      "notes": "manually entered"
+    },
+    {
+      "family": "Legislative Content",
+      "unit": "jurisdictions",
+      "tier": "up to 10 Jurisdictions",
+      "label": "Legislative Content - up to 10 Jurisdictions",
+      "sku": "SUBS_PL_LC_10J",
+      "delivery": "Delivered via API",
+      "price": 1000,
+      "isCustom": false,
+      "threshold": 10,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Legislative Content",
+      "unit": "jurisdictions",
+      "tier": "up to 25 Jurisdictions",
+      "label": "Legislative Content - up to 25 Jurisdictions",
+      "sku": "SUBS_PL_LC_25J",
+      "delivery": null,
+      "price": 5000,
+      "isCustom": false,
+      "threshold": 25,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Legislative Content",
+      "unit": "jurisdictions",
+      "tier": "up to 50 Jurisdictions",
+      "label": "Legislative Content - up to 50 Jurisdictions",
+      "sku": "SUBS_PL_LC_50J",
+      "delivery": null,
+      "price": 10000,
+      "isCustom": false,
+      "threshold": 50,
+      "overFloor": null,
+      "notes": null
+    },
+    {
+      "family": "Legislative Content",
+      "unit": "jurisdictions",
+      "tier": ">50 Jurisdictions / International",
+      "label": "Legislative Content - >50 Jurisdictions / International",
+      "sku": "SUBS_PL_LC_IJ",
+      "delivery": null,
+      "price": null,
+      "isCustom": true,
+      "threshold": null,
+      "overFloor": 50,
+      "notes": "manually entered"
+    },
+    {
+      "family": "Consolidated Rulebooks",
+      "unit": "bundle",
+      "tier": "Rulebooks bundle",
+      "label": "Consolidated Rulebooks bundle add-on",
+      "sku": "SUBS_PL_RB_ADD",
+      "delivery": "Bundled reference content",
+      "price": 5000,
+      "isCustom": false,
+      "threshold": null,
+      "overFloor": null,
+      "notes": null,
+      "isBundle": true,
+      "bundleKey": "rulebooks"
+    },
+    {
+      "family": "Exchanges",
+      "unit": "bundle",
+      "tier": "Exchanges bundle",
+      "label": "Exchanges bundle add-on",
+      "sku": "SUBS_PL_EX_ADD",
+      "delivery": "Bundled exchange rules",
+      "price": 5000,
+      "isCustom": false,
+      "threshold": null,
+      "overFloor": null,
+      "notes": null,
+      "isBundle": true,
+      "bundleKey": "exchanges"
+    }
   ]
 }

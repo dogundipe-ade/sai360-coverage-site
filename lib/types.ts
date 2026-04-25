@@ -27,6 +27,38 @@ export interface CountryAggregate {
   total: number;
 }
 
+export type PricingFamily =
+  | "Regulatory Content"
+  | "Legislative Content"
+  | "Consolidated Rulebooks"
+  | "Exchanges";
+export type PricingUnit = "regulators" | "jurisdictions" | "bundle";
+export type BundleKey = "rulebooks" | "exchanges";
+
+export interface PricingSku {
+  family: PricingFamily;
+  /** Which quantity drives this family: regulators / jurisdictions / bundle (flat). */
+  unit: PricingUnit;
+  /** Short tier label e.g. "up to 30 Regulators". */
+  tier: string;
+  /** Full original label from the spreadsheet. */
+  label: string;
+  sku: string;
+  delivery: string | null;
+  /** Annual price in USD. `null` when `isCustom` is true. */
+  price: number | null;
+  isCustom: boolean;
+  /** Upper bound for "up to N" tiers. `null` for the >N / custom tier. */
+  threshold: number | null;
+  /** Lower bound for the ">N" tier. `null` otherwise. */
+  overFloor: number | null;
+  notes: string | null;
+  /** True for flat-price bundle add-ons (rulebooks, exchanges). */
+  isBundle?: boolean;
+  /** Identifier used by the cart to toggle a bundle on/off. */
+  bundleKey?: BundleKey;
+}
+
 export interface CoverageData {
   summary: {
     regulators: number;
@@ -42,6 +74,7 @@ export interface CoverageData {
   exchanges: CoverageEntry[];
   byIso: Record<string, CountryAggregate>;
   unmapped: string[];
+  pricing: PricingSku[];
 }
 
 export const TIER_LABELS: Record<Tier, string> = {
