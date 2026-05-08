@@ -27,6 +27,13 @@ interface Persona {
   /** Hard cap on regulators to include — avoids edge-case over-selection. */
   cap: number;
   filter: (r: CoverageEntry) => boolean;
+  /**
+   * Optional name patterns that should sort to the top of the matched list.
+   * Without this, `federal first, then alphabetical` puts obscure entries
+   * like "ARPA-H" or "Access Health CT" before the well-known ones a sales
+   * rep would expect to see (HHS, CMS, FDA). Patterns are matched in order.
+   */
+  priority?: RegExp[];
 }
 
 // ===== Keyword bags shared across personas =====
@@ -124,6 +131,14 @@ const PERSONAS: Persona[] = [
     rulebooks: true,
     exchanges: false,
     cap: 15,
+    priority: [
+      /^Board of Governors of the Federal Reserve System$/i,
+      /Office of the Comptroller of the Currency/i,
+      /Federal Deposit Insurance Corporation/i,
+      /Consumer Financial Protection Bureau/i,
+      /National Credit Union Administration/i,
+      /Federal Financial Institutions Examination Council/i,
+    ],
     filter: (r) =>
       r.country === "United States" &&
       (hasAny(r.name, BANK) || US_BANK_ACRONYMS.test(r.name)),
@@ -138,6 +153,16 @@ const PERSONAS: Persona[] = [
     rulebooks: true,
     exchanges: false,
     cap: 35,
+    priority: [
+      /^Board of Governors of the Federal Reserve System$/i,
+      /Office of the Comptroller of the Currency/i,
+      /Federal Deposit Insurance Corporation/i,
+      /Consumer Financial Protection Bureau/i,
+      /National Credit Union Administration/i,
+      /Federal Financial Institutions Examination Council/i,
+      /^US Treasury$/i,
+      /Financial Crimes Enforcement Network|^FinCEN\b/i,
+    ],
     filter: (r) =>
       r.country === "United States" &&
       (hasAny(r.name, BANK) ||
@@ -179,13 +204,26 @@ const PERSONAS: Persona[] = [
   {
     id: "us-healthcare",
     title: "National healthcare org",
-    subtitle: "~14 regulators · 5 jurisdictions",
+    subtitle: "~25 regulators · 5 jurisdictions",
     blurb:
-      "US health system or insurer — HHS plus the state-by-state insurance commissioners that govern most healthcare coverage. (Note: SAI360 doesn't currently cover FDA, CMS, or OCR — flag with product if you need them.)",
+      "US health system or insurer — HHS, FDA, CMS, and OCR (HIPAA) at the federal level, plus the state-by-state insurance and health departments that govern most healthcare delivery and coverage.",
     legCount: 5,
     rulebooks: true,
     exchanges: false,
-    cap: 15,
+    cap: 25,
+    priority: [
+      /^US Department of Health and Human Services$/i,
+      /Centers for Medicare.*Medicaid|^CMS\b/i,
+      /Food and Drug Administration|^FDA\b/i,
+      /Office for Civil Rights|HHS OCR/i,
+      /National Institutes of Health|^NIH\b/i,
+      /Federal Trade Commission/i,
+      /Agency for Healthcare Research/i,
+      /Biomedical Advanced Research/i,
+      /Advanced Research Projects Agency for Health/i,
+      /Centers for Disease Control|^CDC\b/i,
+      /National Association of Insurance Commissioners/i,
+    ],
     filter: (r) => {
       if (r.country !== "United States") return false;
       // Exclude entries that contain "insurance" but are actually about
@@ -198,10 +236,10 @@ const PERSONAS: Persona[] = [
       ) {
         return false;
       }
-      // Health-specific: HHS, FDA, etc. (FTC also belongs here for the
-      // health-data-privacy / advertising side.)
+      // Health-specific: HHS, FDA, CMS, NIH, OCR, etc. (FTC also belongs
+      // here for the health-data-privacy / advertising side.)
       if (
-        /health|medic|human services|food and drug|drug administration|trade commission/i.test(
+        /health|medic|human services|food and drug|drug administration|trade commission|civil rights/i.test(
           r.name
         )
       )
@@ -220,6 +258,16 @@ const PERSONAS: Persona[] = [
     rulebooks: true,
     exchanges: false,
     cap: 15,
+    priority: [
+      /Consumer Financial Protection Bureau/i,
+      /Financial Crimes Enforcement Network|^FinCEN\b/i,
+      /Federal Trade Commission/i,
+      /Office of the Comptroller of the Currency/i,
+      /US Securities and Exchange Commission/i,
+      /Financial Industry Regulatory Authority/i,
+      /^New York State Department of Financial Services$/i,
+      /California Department of Financial Protection/i,
+    ],
     filter: (r) =>
       r.country === "United States" &&
       (US_FED_FIN_HEAVYWEIGHT.test(r.name) ||
@@ -293,20 +341,28 @@ const PERSONAS: Persona[] = [
   {
     id: "energy-trader",
     title: "Energy / commodities trader",
-    subtitle: "~10 regulators · 5 jurisdictions",
+    subtitle: "~12 regulators · 5 jurisdictions",
     blurb:
-      "Commodities and futures regulators across the major derivatives venues. Pair with the Exchanges bundle for CME / ICE / NYMEX rule coverage. (Note: SAI360 doesn't currently track FERC or EPA — flag with product if you need them.)",
+      "Commodities and futures regulators across the major derivatives venues, plus EPA on the environmental side. Pair with the Exchanges bundle for CME / ICE / NYMEX rule coverage. (Note: SAI360 doesn't currently track FERC or DOE — flag with product if you need them.)",
     legCount: 5,
     rulebooks: true,
     exchanges: true,
-    cap: 12,
+    cap: 14,
+    priority: [
+      /Commodity Futures Trading|^CFTC\b/i,
+      /Environmental Protection Agency|^EPA\b/i,
+      /Financial Crimes Enforcement|^FinCEN\b/i,
+      /National Futures Association/i,
+      /^New York State Department of Financial Services$/i,
+    ],
     filter: (r) => {
       if (/handbook/i.test(r.name)) return false;
-      // US: CFTC and FinCEN are the two federal must-haves; NYDFS and a
-      // handful of state financial-services regulators round it out.
+      // US: CFTC and FinCEN are the two federal must-haves; EPA covers
+      // environmental compliance for energy traders; NYDFS and CA DFPI
+      // round out state-level oversight.
       const isUSCommodities =
         r.country === "United States" &&
-        (/commodity futures|financial crimes enforcement|^national futures association$/i.test(
+        (/commodity futures|financial crimes enforcement|^national futures association$|environmental protection agency/i.test(
           r.name
         ) ||
           /^new york state department of financial services$|^california department of financial protection/i.test(
@@ -339,13 +395,28 @@ export function PersonaPresets({
   const [canScrollRight, setCanScrollRight] = useState(false);
 
   // Pre-compute which regulators each persona would pick so we can show a
-  // live "X regulators" count on each card. Sorting prioritizes federal
-  // regulators first, then alphabetical.
+  // live "X regulators" count on each card.
+  //
+  // Sort order:
+  //   1. Persona-specific priority patterns (so HHS / CMS / FDA appear
+  //      before "Access Health CT" in the healthcare persona, etc.).
+  //   2. Federal-level entries before state.
+  //   3. Alphabetical by name.
   const previews = useMemo(() => {
     return PERSONAS.map((p) => {
+      const priorityRank = (r: CoverageEntry): number => {
+        if (!p.priority) return Number.MAX_SAFE_INTEGER;
+        for (let i = 0; i < p.priority.length; i++) {
+          if (p.priority[i].test(r.name)) return i;
+        }
+        return Number.MAX_SAFE_INTEGER;
+      };
       const matched = regulators
         .filter((r) => r.tier === "regulators" && p.filter(r))
         .sort((a, b) => {
+          const aPri = priorityRank(a);
+          const bPri = priorityRank(b);
+          if (aPri !== bPri) return aPri - bPri;
           const aFed = a.level === "federal" ? 0 : 1;
           const bFed = b.level === "federal" ? 0 : 1;
           if (aFed !== bFed) return aFed - bFed;

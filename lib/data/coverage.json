@@ -1,11 +1,11 @@
 {
   "summary": {
-    "regulators": 770,
+    "regulators": 1291,
     "rulebooks": 312,
     "exchanges": 39,
     "legislation": 51,
     "jurisdictions": 111,
-    "builtAt": "2026-05-08T19:44:00.324Z"
+    "builtAt": "2026-05-08T20:20:12.850Z"
   },
   "regulators": [
     {
@@ -3430,15 +3430,6 @@
     },
     {
       "tier": "regulators",
-      "name": "Palau Financial Intelligence Unit",
-      "jurisdiction": "Palau",
-      "country": "Palau",
-      "iso3": "PLW",
-      "region": "APAC",
-      "level": null
-    },
-    {
-      "tier": "regulators",
       "name": "Republic of Palau Financial Institutions Commission",
       "jurisdiction": "Palau",
       "country": "Palau",
@@ -5167,7 +5158,7 @@
     },
     {
       "tier": "regulators",
-      "name": "Consumer Financial Protection Bureau",
+      "name": "Consumer Financial Protection Bureau (CFPB)",
       "jurisdiction": "United States",
       "country": "United States",
       "iso3": "USA",
@@ -5275,7 +5266,7 @@
     },
     {
       "tier": "regulators",
-      "name": "Federal Trade Commission",
+      "name": "Federal Trade Commission (FTC)",
       "jurisdiction": "United States",
       "country": "United States",
       "iso3": "USA",
@@ -6697,15 +6688,6 @@
     },
     {
       "tier": "regulators",
-      "name": "Illinois Office of the Secretary of State Department of Business Services",
-      "jurisdiction": "Illinois",
-      "country": "United States",
-      "iso3": "USA",
-      "region": "Americas",
-      "level": "state"
-    },
-    {
-      "tier": "regulators",
       "name": "Massachusetts Secretary of State Corporations Division",
       "jurisdiction": "Massachusetts",
       "country": "United States",
@@ -6937,6 +6919,4713 @@
       "iso3": "GBR",
       "region": "EMEA",
       "level": null
+    },
+    {
+      "tier": "regulators",
+      "name": "Administration for Children and Families (ACF)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Administration for Community Living (ACL)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Administration for Strategic Preparedness and Response (ASPR)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Advanced Research Projects Agency for Health (ARPA-H)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Agency for Healthcare Research and Quality (AHRQ)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Agency for Toxic Substances and Disease Registry (ATSDR)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Biomedical Advanced Research and Development Authority (BARDA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Centers for Disease Control and Prevention (CDC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Centers for Medicare & Medicaid Services (CMS)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Consumer Product Safety Commission (CPSC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Defense Health Agency (DHA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Departmental Appeals Board (HHS DAB)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Drug Enforcement Administration (DEA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Employee Benefits Security Administration (EBSA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Environmental Protection Agency (EPA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Equal Employment Opportunity Commission (EEOC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Federal Communications Commission (FCC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Food and Drug Administration (FDA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Health Resources and Services Administration (HRSA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indian Health Service (IHS)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Internal Revenue Service (IRS)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "National Institute for Occupational Safety and Health (NIOSH)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "National Institutes of Health (NIH)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nuclear Regulatory Commission (NRC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Occupational Safety and Health Administration (OSHA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office for Civil Rights (HHS OCR)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office for Human Research Protections (OHRP)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of Inspector General (HHS OIG)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of Medicare Hearings and Appeals (OMHA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of Personnel Management (OPM)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of the Assistant Secretary for Health (OASH)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of the Assistant Secretary for Technology Policy / Office of the National Coordinator for Health IT (ASTP/ONC)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Office of the National Drug Control Policy (ONDCP)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Social Security Administration (SSA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Agriculture, Food Safety and Inspection Service (USDA FSIS)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Defense (DoD)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Health and Human Services (HHS)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Justice (DOJ)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Labor (DOL)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of the Treasury",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Transportation (DOT)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Department of Veterans Affairs, Veterans Health Administration (VHA)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Department of Public Health",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Medicaid Agency",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Department of Insurance",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Department of Mental Health",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Department of Senior Services",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Board of Medical Examiners",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Board of Nursing",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama State Board of Pharmacy",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Board of Dental Examiners",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alabama Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Alabama",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Department of Health",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Department of Family and Community Services",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Division of Insurance",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska State Medical Board",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Board of Nursing",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Board of Pharmacy",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Board of Dental Examiners",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Alaska Department of Law, Medicaid Fraud Control Unit",
+      "jurisdiction": "Alaska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Department of Health Services",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Health Care Cost Containment System (AHCCCS)",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Medical Board",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Board of Osteopathic Examiners",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona State Board of Nursing",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona State Board of Pharmacy",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona State Board of Dental Examiners",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Department of Economic Security",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arizona Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Arizona",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas Department of Health",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas Department of Human Services",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas Insurance Department",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas State Medical Board",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas State Board of Nursing",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas State Board of Pharmacy",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas State Board of Dental Examiners",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Arkansas Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Arkansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Public Health",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Health Care Services",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Managed Health Care",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Insurance",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Social Services",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Aging",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of State Hospitals",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Health Care Access and Information (HCAI)",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Medical Board of California",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Osteopathic Medical Board of California",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Board of Registered Nursing",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California State Board of Pharmacy",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Dental Board of California",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "California Department of Justice, Bureau of Medi-Cal Fraud and Elder Abuse",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Covered California",
+      "jurisdiction": "California",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Department of Public Health and Environment",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Department of Health Care Policy and Financing",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Division of Insurance",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Behavioral Health Administration",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Medical Board",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado State Board of Nursing",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado State Board of Pharmacy",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado State Board of Dental Examiners",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Colorado Department of Law, Medicaid Fraud Control Unit",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connect for Health Colorado",
+      "jurisdiction": "Colorado",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Department of Public Health",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Department of Social Services",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Department of Mental Health and Addiction Services",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Department of Aging and Disability Services",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Medical Examining Board",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Board of Examiners for Nursing",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Commission of Pharmacy",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut State Dental Commission",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Connecticut Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Connecticut",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Access Health CT",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Division of Public Health",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Department of Health and Social Services",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Department of Insurance",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Division of Substance Abuse and Mental Health",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Board of Medical Licensure and Discipline",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Board of Nursing",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Board of Pharmacy",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Board of Dentistry and Dental Hygiene",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Delaware Department of Justice, Medicaid Fraud Control Unit",
+      "jurisdiction": "Delaware",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Department of Health",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Department of Health Care Finance",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Department of Insurance, Securities and Banking",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Department of Behavioral Health",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Board of Medicine",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Board of Nursing",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Board of Pharmacy",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Board of Dentistry",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "DC Health Benefit Exchange Authority",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Department of Health",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Agency for Health Care Administration",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Office of Insurance Regulation",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Department of Children and Families",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Department of Elder Affairs",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Board of Medicine",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Board of Osteopathic Medicine",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Board of Nursing",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Board of Pharmacy",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Board of Dentistry",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Florida Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Florida",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Department of Public Health",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Department of Community Health",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Department of Behavioral Health and Developmental Disabilities",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Department of Human Services",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Office of Commissioner of Insurance and Safety Fire",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Composite Medical Board",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Board of Nursing",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia State Board of Pharmacy",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Board of Dentistry",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Department of Law, Medicaid Fraud Control Unit",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Georgia Access (state-based Marketplace)",
+      "jurisdiction": "Georgia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Department of Health",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Department of Human Services, Med-QUEST Division",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Insurance Division (Department of Commerce and Consumer Affairs)",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Medical Board",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Board of Nursing",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Board of Pharmacy",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Board of Dental Examiners",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Hawaii Department of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Hawaii",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho Department of Health and Welfare",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho Department of Insurance",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho State Board of Medicine",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho Board of Nursing",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho State Board of Pharmacy",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho State Board of Dentistry",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Idaho Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Your Health Idaho",
+      "jurisdiction": "Idaho",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Department of Public Health",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Department of Healthcare and Family Services",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Department of Insurance",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Department of Human Services",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Department on Aging",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Illinois Office of the Attorney General, Medicaid Fraud Control Bureau",
+      "jurisdiction": "Illinois",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Department of Health",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Family and Social Services Administration",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Department of Insurance",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Medical Licensing Board",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana State Board of Nursing",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Board of Pharmacy",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana State Board of Dentistry",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Indiana Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Indiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Department of Health and Human Services",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Insurance Division",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Board of Medicine",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Board of Nursing",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Board of Pharmacy",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Dental Board",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Department of Inspections, Appeals, and Licensing",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Iowa Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Iowa",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Department of Health and Environment",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Department for Aging and Disability Services",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Department for Children and Families",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Insurance Department",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas State Board of Healing Arts",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas State Board of Nursing",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas State Board of Pharmacy",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Dental Board",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kansas Office of the Attorney General, Medicaid Fraud and Abuse Division",
+      "jurisdiction": "Kansas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Cabinet for Health and Family Services",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Department for Medicaid Services",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Department for Public Health",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Department of Insurance",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Board of Medical Licensure",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Board of Nursing",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Board of Pharmacy",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Board of Dentistry",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Kentucky Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Kentucky",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "kynect (state-based Marketplace)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana Department of Health",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana Department of Insurance",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana State Board of Medical Examiners",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana State Board of Nursing",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana Board of Pharmacy",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana State Board of Dentistry",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Louisiana Department of Justice, Medicaid Fraud Control Unit",
+      "jurisdiction": "Louisiana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Department of Health and Human Services",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Center for Disease Control and Prevention",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Bureau of Insurance",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Board of Licensure in Medicine",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Board of Osteopathic Licensure",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine State Board of Nursing",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Board of Pharmacy",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Board of Dental Practice",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maine Office of the Attorney General, Healthcare Crimes Unit",
+      "jurisdiction": "Maine",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "CoverME.gov (state-based Marketplace)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Department of Health",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Insurance Administration",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Department of Aging",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Department of Human Services",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Board of Physicians",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Board of Nursing",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Board of Pharmacy",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland State Board of Dental Examiners",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Health Benefit Exchange",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Health Care Commission",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Maryland Health Services Cost Review Commission",
+      "jurisdiction": "Maryland",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Department of Public Health",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Executive Office of Health and Human Services",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "MassHealth (Medicaid)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Division of Insurance",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Department of Mental Health",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Executive Office of Elder Affairs",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Board of Registration in Medicine",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Board of Registration in Nursing",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Board of Registration in Pharmacy",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Board of Registration in Dentistry",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Office of the Attorney General, Medicaid Fraud Division",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Health Connector",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Massachusetts Health Policy Commission",
+      "jurisdiction": "Massachusetts",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Department of Health and Human Services",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Department of Licensing and Regulatory Affairs (LARA)",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Board of Medicine",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Board of Osteopathic Medicine and Surgery",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Board of Nursing",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Board of Pharmacy",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Board of Dentistry",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Michigan Department of Attorney General, Health Care Fraud Division",
+      "jurisdiction": "Michigan",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Department of Health",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Department of Human Services",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Board of Medical Practice",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Board of Nursing",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Board of Pharmacy",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Board of Dentistry",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Minnesota Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Minnesota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "MNsure",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi State Department of Health",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Division of Medicaid",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Insurance Department",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Department of Mental Health",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi State Board of Medical Licensure",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Board of Nursing",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Board of Pharmacy",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi State Board of Dental Examiners",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Mississippi Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Mississippi",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Department of Health and Senior Services",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Department of Social Services, MO HealthNet Division",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Department of Mental Health",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Department of Commerce and Insurance",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri State Board of Registration for the Healing Arts",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri State Board of Nursing",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Board of Pharmacy",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Dental Board",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Missouri Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Missouri",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Department of Public Health and Human Services",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Commissioner of Securities and Insurance (State Auditor)",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Board of Medical Examiners",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Board of Nursing",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Board of Pharmacy",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Board of Dentistry",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Montana Department of Justice, Medicaid Fraud Control Unit",
+      "jurisdiction": "Montana",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Department of Health and Human Services",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Department of Insurance",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Board of Medicine and Surgery",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Board of Nursing",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Board of Pharmacy",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Board of Dentistry",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nebraska Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Nebraska",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada Department of Health and Human Services",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada Division of Public and Behavioral Health",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada Division of Insurance",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada State Board of Medical Examiners",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada State Board of Osteopathic Medicine",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada State Board of Nursing",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada State Board of Pharmacy",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada State Board of Dental Examiners",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Nevada Health Link",
+      "jurisdiction": "Nevada",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Department of Health and Human Services",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Insurance Department",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Board of Medicine",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Board of Nursing",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Board of Pharmacy",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Board of Dental Examiners",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Hampshire Department of Justice, Medicaid Fraud Control Unit",
+      "jurisdiction": "New Hampshire",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Department of Health",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Department of Human Services",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Division of Medical Assistance and Health Services",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey State Board of Medical Examiners",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Board of Nursing",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Board of Pharmacy",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey State Board of Dentistry",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Jersey Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Get Covered New Jersey",
+      "jurisdiction": "New Jersey",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Department of Health",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Health Care Authority",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Office of Superintendent of Insurance",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Aging and Long-Term Services Department",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Medical Board",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Board of Osteopathic Medical Examiners",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Board of Nursing",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Board of Pharmacy",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Board of Dental Health Care",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New Mexico Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "New Mexico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "BeWellnm (state-based Marketplace)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Department of Health",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Office of Mental Health",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Office of Addiction Services and Supports (OASAS)",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Office for the Aging",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Education Department, Office of the Professions",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "New York State Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "New York",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "NY State of Health (state-based Marketplace)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Department of Health and Human Services",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Department of Insurance",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Medical Board",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Board of Nursing",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Board of Pharmacy",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina State Board of Dental Examiners",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Carolina Department of Justice, Medicaid Investigations Division",
+      "jurisdiction": "North Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota Department of Health and Human Services",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota Insurance Department",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota Board of Medicine",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota Board of Nursing",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota State Board of Pharmacy",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota State Board of Dental Examiners",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "North Dakota Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "North Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Department of Health",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Department of Medicaid",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Department of Mental Health and Addiction Services",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Department of Aging",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Department of Insurance",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "State Medical Board of Ohio",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Board of Nursing",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "State of Ohio Board of Pharmacy",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio State Dental Board",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Ohio Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Ohio",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma State Department of Health",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Health Care Authority",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Insurance Department",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Department of Mental Health and Substance Abuse Services",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma State Board of Medical Licensure and Supervision",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma State Board of Osteopathic Examiners",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Board of Nursing",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma State Board of Pharmacy",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Board of Dentistry",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oklahoma Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Oklahoma",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Health Authority",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Department of Human Services",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Department of Consumer and Business Services, Division of Financial Regulation",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Medical Board",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon State Board of Nursing",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Board of Pharmacy",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Board of Dentistry",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Oregon Department of Justice, Medicaid Fraud Control Unit",
+      "jurisdiction": "Oregon",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Department of Health",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Department of Human Services",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Insurance Department",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Department of Aging",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Department of Drug and Alcohol Programs",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania State Board of Medicine",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania State Board of Osteopathic Medicine",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania State Board of Nursing",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania State Board of Pharmacy",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania State Board of Dentistry",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennsylvania Office of the Attorney General, Medicaid Fraud Control Section",
+      "jurisdiction": "Pennsylvania",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Pennie (state-based Marketplace)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Department of Health",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Executive Office of Health and Human Services",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Department of Behavioral Healthcare, Developmental Disabilities and Hospitals",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Department of Business Regulation, Insurance Division",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Office of the Health Insurance Commissioner",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Board of Medical Licensure and Discipline",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Board of Nurse Registration and Nursing Education",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Board of Pharmacy",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Board of Examiners in Dentistry",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Rhode Island Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Rhode Island",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "HealthSource RI",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Department of Public Health",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Department of Health and Human Services",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Department of Mental Health",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Department on Aging",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Department of Insurance",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Board of Medical Examiners",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina State Board of Nursing",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Board of Pharmacy",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Board of Dentistry",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Carolina Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "South Carolina",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Department of Health",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Department of Social Services",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Division of Insurance",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota State Board of Medical and Osteopathic Examiners",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Board of Nursing",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Board of Pharmacy",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota State Board of Dentistry",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "South Dakota Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "South Dakota",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Department of Health",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Department of Mental Health and Substance Abuse Services",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "TennCare (Bureau of TennCare)",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Department of Commerce and Insurance",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Department of Disability and Aging",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Board of Medical Examiners",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Board of Osteopathic Examination",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Board of Nursing",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Board of Pharmacy",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Board of Dentistry",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Tennessee Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Tennessee",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Department of State Health Services",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Health and Human Services Commission",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Department of Insurance",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Medical Board",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Board of Nursing",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas State Board of Pharmacy",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas State Board of Dental Examiners",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Texas Office of the Attorney General, Civil Medicaid Fraud Division",
+      "jurisdiction": "Texas",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Utah Department of Health and Human Services",
+      "jurisdiction": "Utah",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Utah Insurance Department",
+      "jurisdiction": "Utah",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Utah Division of Professional Licensing",
+      "jurisdiction": "Utah",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Utah Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Utah",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Department of Health",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Agency of Human Services",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Department of Vermont Health Access",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Department of Mental Health",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Department of Disabilities, Aging and Independent Living",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Green Mountain Care Board",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Board of Medical Practice",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont State Board of Nursing",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Board of Pharmacy",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Board of Dental Examiners",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Office of the Attorney General, Medicaid Fraud and Residential Abuse Unit",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Vermont Health Connect",
+      "jurisdiction": "Vermont",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Department of Health",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Department of Medical Assistance Services",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Department of Behavioral Health and Developmental Services",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Bureau of Insurance (State Corporation Commission)",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Board of Medicine",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Board of Nursing",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Board of Pharmacy",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Board of Dentistry",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Virginia's Insurance Marketplace",
+      "jurisdiction": "Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Department of Health",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Health Care Authority",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Department of Social and Health Services",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Office of the Insurance Commissioner",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington Medical Commission",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Board of Osteopathic Medicine and Surgery",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Nursing Care Quality Assurance Commission",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Pharmacy Quality Assurance Commission",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Dental Quality Assurance Commission",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington State Office of the Attorney General, Medicaid Fraud Control Division",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Washington Health Benefit Exchange",
+      "jurisdiction": "Washington",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Department of Health",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Department of Health Facilities",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Department of Human Services",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Offices of the Insurance Commissioner",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Board of Medicine",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Board of Osteopathic Medicine",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Board of Examiners for Registered Professional Nurses",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Board of Pharmacy",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Board of Dentistry",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "West Virginia Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "West Virginia",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Department of Health Services",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Office of the Commissioner of Insurance",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Department of Safety and Professional Services",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Medical Examining Board",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Board of Nursing",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Pharmacy Examining Board",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Dentistry Examining Board",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wisconsin Department of Justice, Medicaid Fraud Control and Elder Abuse Unit",
+      "jurisdiction": "Wisconsin",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming Department of Health",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming Department of Insurance",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming Board of Medicine",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming State Board of Nursing",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming State Board of Pharmacy",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming Board of Dental Examiners",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Wyoming Office of the Attorney General, Medicaid Fraud Control Unit",
+      "jurisdiction": "Wyoming",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Puerto Rico Department of Health",
+      "jurisdiction": "Puerto Rico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Puerto Rico Health Insurance Administration (ASES)",
+      "jurisdiction": "Puerto Rico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Puerto Rico Office of the Insurance Commissioner",
+      "jurisdiction": "Puerto Rico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "Puerto Rico Board of Medical Licensure and Discipline",
+      "jurisdiction": "Puerto Rico",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "state"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Virgin Islands Department of Health",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Virgin Islands Department of Human Services",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "U.S. Virgin Islands Division of Banking, Insurance and Financial Regulation",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Guam Department of Public Health and Social Services",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "Guam Department of Revenue and Taxation, Insurance Branch",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "American Samoa Department of Health",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "American Samoa Office of the Governor, Office of Insurance Commissioner",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "CNMI Commonwealth Healthcare Corporation",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
+    },
+    {
+      "tier": "regulators",
+      "name": "CNMI Department of Commerce, Insurance Division",
+      "jurisdiction": "United States",
+      "country": "United States",
+      "iso3": "USA",
+      "region": "Americas",
+      "level": "federal"
     }
   ],
   "rulebooks": [
@@ -11296,11 +15985,11 @@
     "PLW": {
       "iso3": "PLW",
       "country": "Palau",
-      "regulators": 4,
+      "regulators": 3,
       "rulebooks": 4,
       "exchanges": 0,
       "legislation": 0,
-      "total": 8
+      "total": 7
     },
     "PNG": {
       "iso3": "PNG",
@@ -11602,11 +16291,11 @@
     "USA": {
       "iso3": "USA",
       "country": "United States",
-      "regulators": 200,
+      "regulators": 722,
       "rulebooks": 159,
       "exchanges": 14,
       "legislation": 51,
-      "total": 424
+      "total": 946
     },
     "VUT": {
       "iso3": "VUT",

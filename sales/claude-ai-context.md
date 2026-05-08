@@ -38,33 +38,37 @@ SAI360 GRC platform itself.
 
 | Tier | Count | What it is |
 |---|---|---|
-| Regulators | **766** | Regulatory agencies whose publications we track |
+| Regulators | **1,291** | Regulatory agencies whose publications we track |
 | Consolidated rulebooks | **312** | Publishers whose full rulebook text we ingest |
 | Legislative bodies | **51** | Federal and state legislatures we cover |
 | Exchanges | **39** | Stock, clearing, and derivatives exchanges |
-| **Jurisdictions (countries/territories)** | **107** | |
+| **Jurisdictions (countries/territories)** | **111** | |
 
 **Regulators by region:**
 
 | Region | Regulators |
 |---|---|
-| Americas | 291 |
-| EMEA | 292 |
+| Americas | 824 |
+| EMEA | 296 |
 | APAC | 170 |
 | Global / International | 13 |
 
 **Top 10 jurisdictions by regulator count:**
 
-1. United States — 200 (federal + 50 states + territories)
+1. United States — 733 (federal + 50 states + territories incl. DC, Puerto Rico, USVI, Guam, American Samoa, CNMI)
 2. Canada — 43
 3. Switzerland — 21
 4. Australia — 20
 5. New Zealand — 17
-6. United Kingdom — 16
-7. Hong Kong — 14
-8. International / supranational — 13
-9. Singapore — 13
-10. Austria — 12
+6. United Kingdom — 17
+7. European Union — 14
+8. Hong Kong — 14
+9. International / supranational — 13
+10. Singapore — 13
+
+US coverage is especially deep — banking, securities, insurance, healthcare
+(HHS, CMS, FDA, NIH, OCR), energy (EPA), data privacy, and consumer
+protection at both federal and state level, plus all 50 state legislatures.
 
 Numbers rebuild automatically each deploy from a master spreadsheet, so
 they may drift slightly upward over time.

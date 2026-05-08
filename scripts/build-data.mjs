@@ -186,6 +186,28 @@ function readSheet(wb, name) {
   return XLSX.utils.sheet_to_json(ws, { defval: "", raw: true });
 }
 
+// Deduplicate entries by canonical (country, name) pair. The xlsx is
+// hand-edited so duplicates creep in two ways: same row entered twice, and
+// the same regulator added once with its full name and once with " (ACRONYM)"
+// appended. We treat both as duplicates and keep the longer name (since the
+// version with the acronym is more useful).
+function dedupeEntries(entries) {
+  const stripParens = (s) =>
+    s.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim().toLowerCase();
+  const seen = new Map();
+  for (const e of entries) {
+    const key = (e.country || "") + "|" + stripParens(e.name);
+    const existing = seen.get(key);
+    if (!existing) {
+      seen.set(key, e);
+    } else if (e.name.length > existing.name.length) {
+      // Keep the longer name (the one with the acronym in parens).
+      seen.set(key, e);
+    }
+  }
+  return Array.from(seen.values());
+}
+
 // The Pricing SKUs sheet has data in the header row (no real header), so we
 // read raw arrays. Layout per row:
 //   [0] family (sticky — blank means same as previous row)
@@ -262,28 +284,30 @@ function build() {
   const buf = fs.readFileSync(XLSX_PATH);
   const wb = XLSX.read(buf, { type: "buffer" });
 
-  const regulators = readSheet(wb, REGULATORS_SHEET)
-    .map((row) => {
-      const name = clean(row["Regulator Name"]);
-      if (!name) return null;
-      const rawJ = row["Jurisdicition"] || row["Jurisdiction"];
-      const { display, country, iso3 } = normalizeJurisdiction(rawJ);
-      const level = deriveLevel(rawJ, country, name);
-      const stateName =
-        country === "United States" && level === "state"
-          ? extractUSState(rawJ, name)
-          : null;
-      return {
-        tier: "regulators",
-        name,
-        jurisdiction: stateName || display,
-        country,
-        iso3,
-        region: normalizeRegion(row["Region"], iso3, country),
-        level,
-      };
-    })
-    .filter(Boolean);
+  const regulators = dedupeEntries(
+    readSheet(wb, REGULATORS_SHEET)
+      .map((row) => {
+        const name = clean(row["Regulator Name"]);
+        if (!name) return null;
+        const rawJ = row["Jurisdicition"] || row["Jurisdiction"];
+        const { display, country, iso3 } = normalizeJurisdiction(rawJ);
+        const level = deriveLevel(rawJ, country, name);
+        const stateName =
+          country === "United States" && level === "state"
+            ? extractUSState(rawJ, name)
+            : null;
+        return {
+          tier: "regulators",
+          name,
+          jurisdiction: stateName || display,
+          country,
+          iso3,
+          region: normalizeRegion(row["Region"], iso3, country),
+          level,
+        };
+      })
+      .filter(Boolean)
+  );
 
   const rulebooks = readSheet(wb, RULEBOOKS_SHEET)
     .map((row) => {
