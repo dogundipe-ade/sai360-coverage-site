@@ -1,11 +1,11 @@
 {
   "summary": {
-    "regulators": 766,
+    "regulators": 770,
     "rulebooks": 312,
     "exchanges": 39,
     "legislation": 51,
-    "jurisdictions": 107,
-    "builtAt": "2026-04-24T22:12:31.376Z"
+    "jurisdictions": 111,
+    "builtAt": "2026-05-08T19:19:11.931Z"
   },
   "regulators": [
     {
@@ -1363,7 +1363,7 @@
       "name": "Egmont Group of Financial Intelligence Units",
       "jurisdiction": "Egmont",
       "country": "International (Egmont Group)",
-      "iso3": null,
+      "iso3": "XEG",
       "region": "APAC",
       "level": null
     },
@@ -1399,7 +1399,7 @@
       "name": "Council of the European Union",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1408,7 +1408,7 @@
       "name": "European Banking Authority",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1417,7 +1417,7 @@
       "name": "European Central Bank",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1426,7 +1426,7 @@
       "name": "European Commission",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1435,7 +1435,7 @@
       "name": "European Data Protection Board",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1444,7 +1444,7 @@
       "name": "European Data Protection Supervisor",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1453,7 +1453,7 @@
       "name": "European Insurance and Occupational Pensions Authority",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1462,7 +1462,7 @@
       "name": "European Parliament",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1471,7 +1471,7 @@
       "name": "European Securities and Markets Authority",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1480,7 +1480,7 @@
       "name": "European Systemic Risk Board",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -1489,7 +1489,7 @@
       "name": "European Union Agency for Network and Information Security",
       "jurisdiction": "European Union",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -2092,7 +2092,7 @@
       "name": "Basel Committee for Banking Supervision (BCBS)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2101,7 +2101,7 @@
       "name": "EMVCo",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2110,7 +2110,7 @@
       "name": "Financial Action Task Force (FATF)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2119,7 +2119,7 @@
       "name": "Financial Stability Board (FSB)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2128,7 +2128,7 @@
       "name": "International Capital Market Association",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2137,7 +2137,7 @@
       "name": "International Organisation of Securities Commissions (IOSCO)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2146,7 +2146,7 @@
       "name": "International Organization for Standardisation",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2155,7 +2155,7 @@
       "name": "Network for Greening the Financial System",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2164,7 +2164,7 @@
       "name": "PCI Security Standards Council",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2173,7 +2173,7 @@
       "name": "Society for Worldwide Interbank Financial Telecommunication (Swift)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2182,7 +2182,7 @@
       "name": "Sustainability Accounting Standards Board (SASB)",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2191,7 +2191,7 @@
       "name": "Wolfsberg Group",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -2200,7 +2200,7 @@
       "name": "Taskforce on Nature-Related Financial Disclosures",
       "jurisdiction": "International",
       "country": "International",
-      "iso3": null,
+      "iso3": "XIN",
       "region": "Global",
       "level": null
     },
@@ -6901,6 +6901,42 @@
       "iso3": "ZWE",
       "region": "EMEA",
       "level": null
+    },
+    {
+      "tier": "regulators",
+      "name": "European Chemicals Agency",
+      "jurisdiction": "European Union",
+      "country": "European Union",
+      "iso3": "XEU",
+      "region": "EMEA",
+      "level": null
+    },
+    {
+      "tier": "regulators",
+      "name": "European Commission - DG Environment",
+      "jurisdiction": "European Union",
+      "country": "European Union",
+      "iso3": "XEU",
+      "region": "EMEA",
+      "level": null
+    },
+    {
+      "tier": "regulators",
+      "name": "European Commission - DG TAXUD",
+      "jurisdiction": "European Union",
+      "country": "European Union",
+      "iso3": "XEU",
+      "region": "EMEA",
+      "level": null
+    },
+    {
+      "tier": "regulators",
+      "name": "Revenue and Customs",
+      "jurisdiction": "United Kingdom",
+      "country": "United Kingdom",
+      "iso3": "GBR",
+      "region": "EMEA",
+      "level": null
     }
   ],
   "rulebooks": [
@@ -7431,7 +7467,7 @@
       "name": "Data Protection Commission",
       "jurisdiction": "EU",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -7440,7 +7476,7 @@
       "name": "European Central Bank",
       "jurisdiction": "EU",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -7449,7 +7485,7 @@
       "name": "European Data Protection Supervisor",
       "jurisdiction": "EU",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -7458,7 +7494,7 @@
       "name": "European Systemic Risk Board",
       "jurisdiction": "EU",
       "country": "European Union",
-      "iso3": null,
+      "iso3": "XEU",
       "region": "EMEA",
       "level": null
     },
@@ -8448,7 +8484,7 @@
       "name": "North American Securities Administrators Association",
       "jurisdiction": "North Ame",
       "country": "North America",
-      "iso3": null,
+      "iso3": "XNA",
       "region": "Americas",
       "level": null
     },
@@ -10816,6 +10852,15 @@
       "legislation": 0,
       "total": 7
     },
+    "XEG": {
+      "iso3": "XEG",
+      "country": "International (Egmont Group)",
+      "regulators": 1,
+      "rulebooks": 0,
+      "exchanges": 0,
+      "legislation": 0,
+      "total": 1
+    },
     "EGY": {
       "iso3": "EGY",
       "country": "Egypt",
@@ -10842,6 +10887,15 @@
       "exchanges": 0,
       "legislation": 0,
       "total": 1
+    },
+    "XEU": {
+      "iso3": "XEU",
+      "country": "European Union",
+      "regulators": 14,
+      "rulebooks": 4,
+      "exchanges": 0,
+      "legislation": 0,
+      "total": 18
     },
     "FJI": {
       "iso3": "FJI",
@@ -10950,6 +11004,15 @@
       "exchanges": 0,
       "legislation": 0,
       "total": 1
+    },
+    "XIN": {
+      "iso3": "XIN",
+      "country": "International",
+      "regulators": 13,
+      "rulebooks": 0,
+      "exchanges": 0,
+      "legislation": 0,
+      "total": 13
     },
     "IRL": {
       "iso3": "IRL",
@@ -11530,11 +11593,11 @@
     "GBR": {
       "iso3": "GBR",
       "country": "United Kingdom",
-      "regulators": 16,
+      "regulators": 17,
       "rulebooks": 11,
       "exchanges": 2,
       "legislation": 0,
-      "total": 29
+      "total": 30
     },
     "USA": {
       "iso3": "USA",
@@ -11590,6 +11653,15 @@
       "legislation": 0,
       "total": 3
     },
+    "XNA": {
+      "iso3": "XNA",
+      "country": "North America",
+      "regulators": 0,
+      "rulebooks": 1,
+      "exchanges": 0,
+      "legislation": 0,
+      "total": 1
+    },
     "PRI": {
       "iso3": "PRI",
       "country": "Puerto Rico",
@@ -11609,13 +11681,7 @@
       "total": 1
     }
   },
-  "unmapped": [
-    "EU",
-    "Egmont",
-    "European Union",
-    "International",
-    "North Ame"
-  ],
+  "unmapped": [],
   "pricing": [
     {
       "family": "Regulatory Content",
