@@ -446,8 +446,17 @@ export function PersonaPresets({
 
         <div
           ref={scrollRef}
-          className="flex snap-x snap-mandatory gap-3 overflow-x-auto scroll-smooth pb-3 -mx-1 px-1"
-          style={{ scrollbarWidth: "thin" }}
+          className="snap-x snap-mandatory overflow-x-auto scroll-smooth pb-3 -mx-1 px-1"
+          style={{
+            // Use inline styles for the layout fundamentals so this works
+            // even if a Tailwind utility ever fails to make it into the
+            // build. Belt-and-suspenders for the live demo.
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "nowrap",
+            gap: "12px",
+            scrollbarWidth: "thin",
+          }}
         >
           {previews.map(({ persona, matched }) => (
             <button
@@ -455,8 +464,15 @@ export function PersonaPresets({
               type="button"
               data-persona-card
               onClick={() => handleApply(persona, matched)}
+              style={{
+                // Hard-pin the card width so flex can't squish them into
+                // a 9-up grid on wide screens.
+                flex: "0 0 300px",
+                width: "300px",
+                minWidth: "300px",
+              }}
               className={clsx(
-                "group flex w-[280px] shrink-0 snap-start flex-col rounded-xl2 border border-ink-100 bg-white p-4 text-left transition-all focus-ring sm:w-[300px]",
+                "group snap-start flex flex-col rounded-xl2 border border-ink-100 bg-white p-4 text-left transition-all focus-ring",
                 "hover:border-brand-teal hover:shadow-lift"
               )}
             >
