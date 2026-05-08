@@ -456,6 +456,11 @@ export function PersonaPresets({
             flexWrap: "nowrap",
             gap: "12px",
             scrollbarWidth: "thin",
+            // `minWidth: 0` is the defensive twin of the parent grid's
+            // `minmax(0,1fr)` — without it, a flex container can refuse to
+            // shrink below its content size and overflow the parent.
+            minWidth: 0,
+            width: "100%",
           }}
         >
           {previews.map(({ persona, matched }) => (

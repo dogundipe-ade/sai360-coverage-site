@@ -131,9 +131,14 @@ export function PricingCalculator({
     [cart.regulators]
   );
 
+  // `minmax(0,1fr)` (instead of just `1fr`) is the fix for the classic
+  // CSS Grid bug where a track grows to fit its widest child. Without it,
+  // the persona carousel's 9 × 300px cards force the column to ~2700px and
+  // break the entire page layout. The inner `min-w-0` is defensive twin
+  // protection on the column wrapper.
   return (
-    <div className="grid gap-6 lg:grid-cols-[1fr,380px]">
-      <div className="space-y-6">
+    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr),380px]">
+      <div className="min-w-0 space-y-6">
         <PersonaPresets
           regulators={regulators}
           onApply={(legCount) => {
